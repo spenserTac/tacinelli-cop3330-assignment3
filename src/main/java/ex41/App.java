@@ -55,8 +55,10 @@ public class App {
 
         System.out.printf("Total of %d name\n-----------------\n", names.size());
 
+        // Getting the users cwd to get the file.
         String dir = System.getProperty("user.dir");
 
+        // Creating the output file.
         PrintWriter writer = new PrintWriter(dir + "/src/main/java/ex41/exercise41_output.txt", "UTF-8");
 
         writer.println("Total of " + names.size() + " names\n-----------------");
