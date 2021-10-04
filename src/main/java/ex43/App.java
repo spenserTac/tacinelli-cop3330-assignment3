@@ -65,7 +65,7 @@ public class App {
         System.out.print("Do you want a folder for CSS? ");
         String css_file_answer = scanner.nextLine();
         values.add(css_file_answer);
-        
+
         return values;
     }
 
