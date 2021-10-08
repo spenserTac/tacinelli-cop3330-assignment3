@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+  BufferedReader create_read_file()
+  void word_frequency(BufferedReader in_file)
+  void main(String[] args)
+}
+
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+  void create_website_template(ArrayList<String> inputs)
+  ArrayList<String> get_users_input_for_site()
+  void main(String[] args)
+}
+
+
+@enduml

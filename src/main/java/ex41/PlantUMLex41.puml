@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+  BufferedReader create_read_file()
+  ArrayList<String[]> list_of_name(BufferedReader file)
+  void main(String[] args)
+}
+
+
+@enduml

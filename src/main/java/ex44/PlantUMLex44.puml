@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
+  JSONObject create_JSON_obj()
+  String capitalize(String str)
+  void find_obj(JSONObject jo)
+  void main(String[] args)
+}
+
+
+@enduml
